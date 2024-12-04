@@ -12,7 +12,6 @@
                     <!-- Description -->
                     <h3>Roda Indonesia</h3>
                     <h1>Persyaratan Layanan</h1>
-                   
                 </div>
             </div>
             <div class="col-12 col-lg-5 text-center default-logo-box">
@@ -32,15 +31,36 @@
 </section>
 <!-- Akhir Jumbotron -->
 
+<style>
+    .card-height {
+        height: 100%;
+    }
+</style>
+
 <section class="privacy section-padding">
-    <div class="container">
+    <div class="container text-center">
         <div class="service-features desc">
             <div class="service-feature-item">
                 <div class="section-title">
-                <h1><a href="?page=kebijakan&sub_page=persyaratan_layanan_user">USER</a></h1>&nbsp;&nbsp;|&nbsp;&nbsp;<h1><a href="?page=kebijakan&sub_page=persyaratan_layanan_driver">DRIVER</a></h1>
+                    <div class="row justify-content-center row-cols-md-4 g-2">
+                        <div class="col card-height"> <!-- Add "card-height" class -->
+                            <div class="card border-danger">
+                                <div class="card-header bg-transparent text-danger border-danger">KETENTUAN PENGGUNA</div>
+                                <img src="assets/icon/richat.png" class="card-img-top">
+                                <a class="btn btn-outline-danger" href="?page=kebijakan&sub_page=persyaratan_layanan_user">USER</a>
+                            </div>
+                        </div>
+                        <div class="col card-height"> <!-- Add "card-height" class -->
+                            <div class="card border-danger">
+                                <div class="card-header bg-transparent text-danger border-danger">KETENTUAN LAYANAN</div>
+                                <img src="assets/icon/ribike.png" class="card-img-top">
+                                <a class="btn btn-outline-danger" href="?page=kebijakan&sub_page=persyaratan_layanan_driver">DRIVER</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 </section>
+
